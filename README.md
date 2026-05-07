@@ -22,3 +22,5 @@ This repo is intentionally simple — it exists so the github-pi agent can:
 | `gp:auto-fix` | Agent attempts to fix the issue and opens a PR |
 | `gp:review` | Agent reviews an open PR and posts comments |
 | `gp:declined` | Issue is closed |
+
+E2E test marker: triage-redesign-v2 (20260508-0608)
