@@ -14,5 +14,6 @@ def multiply(a: int, b: int) -> int:
 
 
 def divide(a: int, b: int) -> float:
-    # Intentional bug: no zero-division guard. Reported via issue → gp:auto-fix.
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
     return a / b
