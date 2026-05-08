@@ -1,0 +1,8 @@
+"""Test configuration for the calculator module."""
+import pytest
+import sys
+from pathlib import Path
+
+# Add the src directory to Python path so we can import calculator
+src_path = Path(__file__).parent.parent / "src"
+sys.path.insert(0, str(src_path))
